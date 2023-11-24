@@ -9,4 +9,5 @@ location: "Hangzhou , China"
 ---
 A tutorial to llama2.
 
-https://miracle-master.github.io/files/LLama2本地部署教程.pdf
+[Llama2本地部署教程](https://miracle-master.github.io/files/LLama2本地部署教程.pdf)
+
