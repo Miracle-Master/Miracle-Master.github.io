@@ -105,7 +105,7 @@
             const code = document.createElement('div');
             code.className = 'code';
             code.style.left = Math.random() * 100 + '%';
-            code.style.animationDuration = Math.random() * 1 + 2 + 's';
+            code.style.animationDuration = Math.random() * 3 + 3 + 's';
             code.style.color = colors[Math.floor(Math.random() * colors.length)];
             code.style.fontSize = Math.random() * 6 + 14 + 'px';
             
@@ -122,7 +122,7 @@
         }
 
         // 增强数字雨密度
-        setInterval(createCodeStream, 25);
+        setInterval(createCodeStream, 50);
 
         // 添加科技感扫描线
         const scanline = document.createElement('div');
